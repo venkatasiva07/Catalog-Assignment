@@ -1,4 +1,4 @@
-Problem Statement
+<h1>Problem Statement</h1>
 In this assignment, you'll work on a simplified version of Shamir's Secret Sharing algorithm.
 
 Consider an unknown polynomial of degree m. You would require m+1 roots of the polynomial to solve for the coefficients, represented as k = m + 1.<br>
@@ -11,8 +11,8 @@ a_m, a_{m-1}, ..., a_1, c are coefficients (real numbers)
 a_m ≠ 0 (since it's the highest degree term, ensuring the polynomial is of degree m)
 This representation shows that a polynomial of degree m is a sum of terms, where each term is a coefficient multiplied by a power of x. The highest power of x is m, and the powers decrease by 1 for each subsequent term until we reach the constant term c, which has no x.
 The task is to find the constant term i.e, ‘c’ of the polynomial with the given roots. However, the points are not provided directly but in a specific format.
-You need to read the input from the test cases provided in JSON format.
-Sample Test Case:
+You need to read the input from the test cases provided in JSON format.<br>
+Sample Test Case:<br>
 {
     "keys": {
         "n": 4,
@@ -34,16 +34,16 @@ Sample Test Case:
         "base": "4",
         "value": "213"
     }
-}
+}<br>
 ​
-n: The number of roots provided in the given JSON
-k: The minimum number of roots required to solve for the coefficients of the polynomial
-k = m + 1, where m is the degree of the polynomial
-Root Format Example:
+n: The number of roots provided in the given JSON<br>
+k: The minimum number of roots required to solve for the coefficients of the polynomial<br>
+k = m + 1, where m is the degree of the polynomial<br>
+Root Format Example:<br>
 "2": {
     "base": "2",
     "value": "111"
-}
+}<br>
 ​
 Consider the above root as (x, y):
 x is the key of the object (in this case, x = 2)
@@ -70,9 +70,9 @@ The degree of the polynomial (m) is determined as m = k−1, where k is provided
   
 Output: Print secret for both the testcases simultaneously.
 Hint: Although you can't test your code against the test case in a testing environment, you can double-check it manually by solving the polynomial on paper and comparing the outputs.
-Good luck!
+Good luck! <br>
 
-Find the second testcase here.
+Find the second testcase here.<br>
 {
 "keys": {
     "n": 10,
