@@ -1,11 +1,11 @@
 Problem Statement
 In this assignment, you'll work on a simplified version of Shamir's Secret Sharing algorithm.
 
-Consider an unknown polynomial of degree m. You would require m+1 roots of the polynomial to solve for the coefficients, represented as k = m + 1.
-An unknown polynomial of degree m can be represented as:
-f(x) = a_m x^m + a_{m-1} x^{m-1} + ... + a_1 x + c
-Where:
-f(x) is the polynomial function
+Consider an unknown polynomial of degree m. You would require m+1 roots of the polynomial to solve for the coefficients, represented as k = m + 1.<br>
+An unknown polynomial of degree m can be represented as:<br>
+f(x) = a_m x^m + a_{m-1} x^{m-1} + ... + a_1 x + c<br>
+Where:<br>
+f(x) is the polynomial function<br>
 m is the degree of the polynomial
 a_m, a_{m-1}, ..., a_1, c are coefficients (real numbers)
 a_m ≠ 0 (since it's the highest degree term, ensuring the polynomial is of degree m)
